@@ -5,25 +5,38 @@ marker ={
 }
 
 vidSlides = {
-    savingHistory: []
+    savingHistory: [],
+    save(),
+    open(),
+    showSlides(),
+    undo(),
+    redo()
 }
 
 presentation = {
     nameDocument: 'First Presentation',
-    slides: [1, 2, 3, 4, 5]
+    slides: [1, 2, 3, 4, 5],
+    addSlide(),
+    deleteSlide(),
+    moveSlide()
 }
 
 slide ={
     id: '3',
     backgroundColor: 'white',
     backgroundImg: null,
-    elementsId: [1, 2, 3, 4, 5]
+    elementsId: [1, 2, 3, 4, 5],
+    changeBackgroungColor(),
+    changeBackgroundImg()
 }
 
 element = {
     id: '',
     x: '',
-    y: ''
+    y: '',
+    createElement(),
+    changeSize(),
+    deleteElement
 }
 
 const img = {
@@ -40,7 +53,13 @@ const text = {
     color: 'black',
     bold: true,
     italic: false,
-    highlighted: false
+    highlighted: false,
+    changeSize(),
+    changeFont(),
+    changeColor(),
+    makeBold(),
+    makeItalic(),
+    makeHighlighted()
 }
 
 const primitive = {

@@ -1,42 +1,68 @@
 marker ={
-    choosenSlidesId: [2],
-    choosenElementsId: [1, 5, 3],
-    choosenTextId: []
+    choosenSlides: [],
+    choosenElements: [],
+    choosenText: []
 }
 
 vidSlides = {
     savingHistory: [],
-    save(),
-    open(),
-    showSlides(),
-    undo(),
-    redo()
+    save() { 
+     
+    },
+    open() {
+    
+    },
+    showSlides() {
+        
+    },
+    undo() {
+        
+    },
+    redo() {
+        
+    }    
 }
 
 presentation = {
     nameDocument: 'First Presentation',
-    slides: [1, 2, 3, 4, 5],
-    addSlide(),
-    deleteSlide(),
-    moveSlide()
+    slides: [],
+    addSlide() {
+        
+    },
+    deleteSlide() {
+        
+    },
+    moveSlide() {
+        
+    }    
 }
 
 slide ={
     id: '3',
     backgroundColor: 'white',
     backgroundImg: null,
-    elementsId: [1, 2, 3, 4, 5],
-    changeBackgroungColor(),
-    changeBackgroundImg()
+    elements: [],
+    changeBackgroungColor() {
+        
+    },
+    changeBackgroundImg() {
+        
+    }    
 }
 
 element = {
     id: '',
     x: '',
     y: '',
-    createElement(),
-    changeSize(),
-    deleteElement
+    createElement() {
+        
+    },
+    changeSize() {
+        
+    },
+    deleteElement() {
+        
+    }    
 }
 
 const img = {
@@ -54,12 +80,24 @@ const text = {
     bold: true,
     italic: false,
     highlighted: false,
-    changeSize(),
-    changeFont(),
-    changeColor(),
-    makeBold(),
-    makeItalic(),
-    makeHighlighted()
+    changeSize() {
+
+    },
+    changeFont() {
+        
+    },
+    changeColor() {
+        
+    },
+    makeBold() {
+        
+    },
+    makeItalic() {
+        
+    },
+    makeHighlighted() {
+        
+    }
 }
 
 const primitive = {
